@@ -1,5 +1,6 @@
 import React from 'react';
 import './Development.css';
+import CropTech from "./assets/CropTech.jpg"
 
 
 const Development = () => {
@@ -19,7 +20,8 @@ const Development = () => {
         <div className="project-grid">
         <div className="overlay">
           <div className="project-card">
-           
+            <a href='https://github.com/ganesh-gowda/CropTech.git'></a>
+            <img src={CropTech} alt="CropTech"/>
             <h3>CropTech</h3>
             </div>
           </div>
