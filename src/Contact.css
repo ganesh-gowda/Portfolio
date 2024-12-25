@@ -1,0 +1,153 @@
+.contact-container {
+  text-align: center;
+  background-color: #121212;
+  color: #e6e6e6;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 280px;
+  margin: 20px 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #e6e6e6;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.contact-header {
+  padding: 50px 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.contact-header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #298dff;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+  margin: 30px 0;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+}
+
+.contact-footer {
+  padding: 20px 0;
+  background-color: #1c1c1c;
+  font-size: 0.9em;
+  color: #a0a0a0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.split {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+  margin: 30px 0;
+}
+
+.one, .two {
+  flex: 1;
+  margin-top: 45px;
+  font-size: large;
+  text-align: justify;
+  border: 3px solid white;
+  border-radius: 6%;
+  padding: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.contact-item svg {
+  margin-right: 10px; /* Space between icon and text */
+}
+
+button {
+  height: 70px;
+  width: 150px;
+  border-radius: 20px;
+  border: 3px solid white;
+  background-color: hsla(0, 0%, 69%, 0.3);
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .split {
+    flex-direction: column;
+  }
+
+  .one, .split span {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact-container {
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.two a{
+  color: white;
+  text-decoration: none;
+}
+button {
+  height: 60px;
+  width: 150px;
+  border-radius: 20px;
+  border: 3px solid white;
+  background-color: hsla(0, 0%, 69%, 0.3);
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px; 
+  margin-bottom: 20px;
+  margin-left: 80px;
+}
+.two p:hover {
+  color: red; 
+  transition: color 0.3s ease; 
+}
+.two a:hover {
+  color: red; 
+  transition: color 0.3s ease; 
+}

@@ -1,0 +1,214 @@
+@font-face {
+  font-family: 'StarJedi';
+  src: url('./assets/fonts/Starjedi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'StarJediHollow';
+  src: url('./assets/fonts/Starjhol.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Mono', monospace;
+  background-color: #121212;
+  color: #e6e6e6;
+}
+
+.development-container {
+  text-align: center;
+  background-color: #121212;
+  color: #e6e6e6;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.dev-header {
+  padding: 50px 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.dev-header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #298dff;
+}
+
+.dev-footer {
+  padding: 20px 0;
+  background-color: #1c1c1c;
+  font-size: 0.9em;
+  color: #a0a0a0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.tech-stack-section {
+  margin-top: 50px;
+  padding: 50px 20px;
+  background-color: #121212;
+  color: #e6e6e6;
+}
+
+.tech-stack-section h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #298dff;
+  font-family: 'StarJediHollow';
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.tech-stack-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: justify;
+}
+
+.tech-stack {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.tech {
+  background-color: #b1b1b179;
+  color: #121212;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 150px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border:  4px dotted white;
+}
+
+.tech img {
+  max-width: 40px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.tech a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 55px;
+  margin-top: 30px;
+  margin-left: 250px;
+  margin-right: 300px;
+}
+
+.project-card {
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  width: 370px;
+  height: 190px;
+  margin: 0 auto;
+}
+
+.project-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .overlay {
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .tech-stack {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .tech-stack {
+    grid-template-columns: 1fr;
+  }
+}
+.tech-stack a{
+  text-decoration: none;
+  padding: 20px;
+}
+.resume {
+  margin-top: 100px;
+  height: 60px;
+  width: 150px;
+  border-radius: 20px;
+  border: 3px solid white;
+  background-color:hsla(0, 0%, 69%, 0.3);
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.resume a {
+  font-family:'Space Mono', monospace;
+  font-weight: 700;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  text-align: center;
+  color:white;
+  font-size: 16px;
+  text-decoration: none;
+}
+.project-card img {
+  width: 100%;
+  object-fit: cover; 
+}
