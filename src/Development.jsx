@@ -1,6 +1,9 @@
 import React from 'react';
 import './Development.css';
 import CropTech from "./assets/CropTech.jpg"
+import CryptoX from "./assets/CryptoX.jpg"
+import MedPre from "./assets/MedPre.jpg"
+import Summeriz from "./assets/Summeriz.jpg"
 
 
 const Development = () => {
@@ -20,24 +23,33 @@ const Development = () => {
         <div className="project-grid">
         <div className="overlay">
           <div className="project-card">
+            <a href='https://github.com/ganesh-gowda/CropTech.git'>
+            <img src={CropTech} alt="CropTech"/>
+            </a>
             <h3>CropTech</h3>
             </div>
           </div>
           <div className="overlay">
           <div className="project-card">
-            
+          <a href='https://github.com/ganesh-gowda/Medicine-Prediction'>
+            <img src={MedPre} alt="Medpre"/>
+            </a>
             <h3>Medicine Recommender</h3>
             </div>
           </div>
           <div className="overlay">
           <div className="project-card">
-            
+          <a href='https://github.com/ganesh-gowda/Summeriz'>
+            <img src={Summeriz} alt="Summeriz"/>
+            </a>
             <h3>Summeriz</h3>
            </div>
           </div>
           <div className="overlay">
           <div className="project-card">
-           
+          <a href='https://github.com/ganesh-gowda/Crypto-X'>
+            <img src={CryptoX} alt="CryptoX"/>
+            </a>
             <h3>CryptoX</h3>
             </div>
           </div>
