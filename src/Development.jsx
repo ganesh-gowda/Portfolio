@@ -20,9 +20,6 @@ const Development = () => {
         <div className="project-grid">
         <div className="overlay">
           <div className="project-card">
-            <a href='https://github.com/ganesh-gowda/CropTech.git'>
-            <img src={CropTech} alt="CropTech"/>
-            </a>
             <h3>CropTech</h3>
             </div>
           </div>
