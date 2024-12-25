@@ -1,9 +1,9 @@
 import React from 'react';
 import './Development.css';
-import Croptech from "./assets/CropTech.png"
-import Medpre from "./assets/Medpre.png"
-import Sum from "./assets/Summeriz.png"
-import Crypto from "./assets/CryptoX.png"
+import Croptech from "./assets/CropTech.jpg"
+import Medpre from "./assets/Medpre.jpg"
+import Sum from "./assets/Summeriz.jpg"
+import Crypto from "./assets/CryptoX.jpg"
 
 const Development = () => {
   return (
