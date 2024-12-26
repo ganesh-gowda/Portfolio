@@ -18,20 +18,12 @@ const Contact = () => {
         <div className='split'>
         <div className='one'>
         <p>
-        "Are you a business owner or someone eager to elevate your online presence? Let me take the reins.Schedule a free one-on-one consultation, and we’ll design a personalized plan to meet your needs . Together, we’ll create a strategy that aligns with your vision and propels your digital success."
+        Ready to level up your online game? Whether you're a business owner or a go-getter looking to amplify your digital presence, I've got you covered. Book a free one-on-one consultation, and let’s craft a tailored strategy that matches your vision and drives real results. Together, we’ll turn your digital goals into success stories.
         </p>
         </div>
         <div className='two'>
  
     Feel free to reach out via
-
-  <p className="contact-item">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-map-pin h-5 w-5 text-primary">
-      <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-      <circle cx="12" cy="10" r="3"></circle>
-    </svg> 
-    Mysore, India
-  </p>
   <p className="contact-item">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-phone h-5 w-5 text-primary">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
@@ -51,8 +43,14 @@ const Contact = () => {
     </svg>
     <a href="https://www.linkedin.com/in/ganesh-gowda-m-969b12307/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
   </p>
-  <button><a href="https://cal.com/ganesh-gowda/
-30min" target="_blank">Book a Call</a></button>
+  <p className="contact-item">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-map-pin h-5 w-5 text-primary">
+      <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+      <circle cx="12" cy="10" r="3"></circle>
+    </svg> 
+    Mysore, India
+  </p>
+  <button><a href="https://cal.com/ganesh-gowda/30min" target="_blank">Book a Call</a></button>
 </div>
 
         </div>
