@@ -208,8 +208,7 @@ canvas {
   color: #b31717;
   font-size: 0.875rem; /* 14px */
   border: 0.125rem solid lightblue; /* 2px */
-  width: 21%; /* 250px */
-  height: 63%; /* 290px */
+  width: 20%; /* 250px */
   text-align: center;
   z-index: 1;
   overflow: hidden;
@@ -217,6 +216,8 @@ canvas {
 }
 
 .inner-card img {
+  margin-top: -1%;
+  margin-bottom: -3%;
   width: 100%;
   object-fit: cover;
 }
@@ -238,7 +239,7 @@ canvas {
   display: flex;
   gap: 3.75rem; /* 60px */
   justify-content: center;
-  margin-top: 5%; /* 20px */
+  margin-top: 7%; /* 20px */
   margin-bottom: 2%; /* 15px */
 }
 
