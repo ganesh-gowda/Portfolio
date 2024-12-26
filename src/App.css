@@ -224,7 +224,7 @@ canvas {
 .intro-card .intro-title {
   font-size: 1.5rem; /* 24px */
   font-weight: 700;
-  margin-bottom: 2%; /* 16px */
+  margin-bottom: 0.5%; /* 16px */
   color: #e6e6e6;
 }
 
