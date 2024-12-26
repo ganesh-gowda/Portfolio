@@ -16,7 +16,7 @@ const Development = () => {
       </nav>
 
       <header className="dev-header">
-        <h1>Most Recent Projects</h1>
+        <h1>most recent projects</h1>
       </header>
 
       <section id="projects" className="dev-projects">
@@ -60,7 +60,7 @@ const Development = () => {
       <a href='https://drive.google.com/file/d/1osL4-d1gyeAnynP4yLok3ei0UQ5Kf3cm/view?usp=drive_link'>View Resume</a>
       </div>
       <section className="tech-stack-section">
-        <h2>Tech Stack</h2>
+        <h2>tech stack</h2>
         <p>I rely on a set of trusted frameworks for efficiency and performance, while also staying adaptable to new tools to meet client needs, ensuring the creation of seamless web applications. My tech stack varies from project to project, and I'm passionate about learning new, exciting technologies every day.</p>
 
         <div className="tech-stack">

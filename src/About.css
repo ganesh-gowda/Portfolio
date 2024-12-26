@@ -13,121 +13,122 @@
   font-style: normal;
 }
 .about-section {
-    padding: 80px 20px;
-    background-color: #121212;
-    color: #e6e6e6;
-    text-align: center;
+  padding: 5rem 1.25rem; /* 80px 20px */
+  background-color: #121212;
+  color: #e6e6e6;
+  text-align: center;
 }
 
 .about-container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 75rem; /* 1200px */
+  margin: 0 auto;
 }
 
 .about-title {
-    font-size: 45px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: white;
+  font-size: 2.8125rem; /* 45px */
+  font-weight: bold;
+  margin-bottom: 1.25rem; /* 20px */
+  color: white;
 }
 
 .about-description {
-    font-size: 18px;
-    line-height: 1.8;
-    margin-bottom: 30px;
-    color: #d7ec18;
-    font-family: 'StarJedi'; 
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.8;
+  margin-bottom: 1.875rem; /* 30px */
+  color: #d7ec18;
+  font-family: 'StarJedi';
 }
 
-
 .spline-container {
-    height: 400px;
-    width: 100%;
-    display: inline-block;
-    margin-top: -380px;
-    margin-left: -650px;
+  height: 25rem; /* 400px */
+  width: 100%;
+  display: inline-block;
+  margin-top: -23.75rem; /* -380px */
+  margin-left: -40.625rem; /* -650px */
 }
 
 .spline-container iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
-@media (max-width: 768px) {
-    .cards-container {
-        align-items: center;
-    }
 
-    .card {
-        width: 90%; 
-        margin-bottom: 30px;
-    }
-}
-.nav-links {
-    display: flex;
-    justify-content: center; 
-    gap: 350px; 
-    margin-bottom: 50px;
-    
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #ff8533; 
-    font-weight: bold;
-    transition: color 0.5s;
-    font-family: 'StarJedi';
-    font-size: 25px;
-  }
-  
-  .nav-links a:hover {
-    color: #ffffff; 
-    text-decoration: underline;
-  }
-  
-  .nav-links a.active {
-    font-weight: bold;
-    color: #e7e7e7; 
-  }
-  .hello{
-    font-size: 16px;
-    width:550px;
-    height: 350px;
-    font-family: 'Space Mono', monospace; 
-    text-align: justify;
-    line-height: 1.2;
-    margin: 0 50px 0 50px;
-    margin-left: 350px;
-    margin-top: 25px;
-    font-weight: 600;
-    display: inline-block;
-  }
-  .card{
-    border: 2px solid pink;
-    border-radius: 20px;
-    width: 70%;
-    margin-left: 220px;
-  }
-  .left {
-    margin-top: 42px;
-    margin-left: 50px;
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    border-radius: 20px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
+@media (max-width: 48rem) { /* 768px */
+  .cards-container {
     align-items: center;
   }
-  
-  .left img {
-    margin-top: 5px;
-    width: 110%; 
-    height: 100%; 
-    object-fit: cover;
-    border-radius: 20px; 
-    border: 2px solid rgb(173, 173, 252);
+
+  .card {
+    width: 90%;
+    margin-bottom: 1.875rem; /* 30px */
   }
-  
-  
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 21.875rem; /* 350px */
+  margin-bottom: 3.125rem; /* 50px */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ff8533;
+  font-weight: bold;
+  transition: color 0.5s;
+  font-family: 'StarJedi';
+  font-size: 1.5625rem; /* 25px */
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.nav-links a.active {
+  font-weight: bold;
+  color: #e7e7e7;
+}
+
+.hello {
+  font-size: 1rem; /* 16px */
+  width: 34.375rem; /* 550px */
+  height: 21.875rem; /* 350px */
+  font-family: 'Space Mono', monospace;
+  text-align: justify;
+  line-height: 1.2;
+  margin: 0 3.125rem; /* 50px */
+  margin-left: 21.875rem; /* 350px */
+  margin-top: 1.5625rem; /* 25px */
+  font-weight: 600;
+  display: inline-block;
+}
+
+.card {
+  border: 0.125rem solid pink; /* 2px */
+  border-radius: 1.25rem; /* 20px */
+  width: 70%;
+  margin-left: 13.75rem; /* 220px */
+}
+
+.left {
+  margin-top: 2.625rem; /* 42px */
+  margin-left: 3.125rem; /* 50px */
+  position: absolute;
+  width: 15.625rem; /* 250px */
+  height: 15.625rem; /* 250px */
+  border-radius: 1.25rem; /* 20px */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left img {
+  margin-top: 0.3125rem; /* 5px */
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1.25rem; /* 20px */
+  border: 0.125rem solid rgb(173, 173, 252); /* 2px */
+}
