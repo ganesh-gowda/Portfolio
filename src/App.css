@@ -182,11 +182,11 @@ canvas {
 .intro-card {
   position: relative;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 1.875rem; /* 30px */
-  margin: 1.875rem 0; /* 30px 0 */
-  margin-left: 5.625rem; /* 90px */
+  padding: 3%; /* 30px */
+  margin: 0.25% 0%; /* 30px 0 */
+  margin-left: 5%; /* 90px */
   border-radius: 1rem; /* 16px */
-  margin-top: 5rem; /* 80px */
+  margin-top: 4%;
   box-shadow: 0 0.375rem 1.5rem rgba(0, 0, 0, 0.2); /* 0 6px 24px */
   width: 60%;
   height: auto;
@@ -195,25 +195,25 @@ canvas {
   color: #a18dfd;
   font-size: 0.8125rem; /* 13px */
   border: 0.125rem solid pink; /* 2px */
-  padding-right: 21.875rem; /* 350px */
+  padding-right: 25%; /* 350px */
 }
 
 .inner-card {
   position: absolute;
-  top: 1.25rem; /* 20px */
-  right: 1.25rem; /* 20px */
+  top: 5%; /* 20px */
+  right: 2%; /* 20px */
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 0.5rem; /* 8px */
   box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.2); /* 0 4px 16px */
   color: #b31717;
   font-size: 0.875rem; /* 14px */
   border: 0.125rem solid lightblue; /* 2px */
-  width: 15.625rem; /* 250px */
-  height: 18.125rem; /* 290px */
+  width: 21%; /* 250px */
+  height: 63%; /* 290px */
   text-align: center;
   z-index: 1;
   overflow: hidden;
-  margin-top: 1.25rem; /* 20px */
+  margin-top: 2.5%; /* 20px */
 }
 
 .inner-card img {
@@ -224,22 +224,22 @@ canvas {
 .intro-card .intro-title {
   font-size: 1.5rem; /* 24px */
   font-weight: 700;
-  margin-bottom: 1rem; /* 16px */
+  margin-bottom: 2%; /* 16px */
   color: #e6e6e6;
 }
 
 .intro-card .intro-text {
   font-size: 1rem; /* 16px */
-  margin-bottom: 0.625rem; /* 10px */
+  margin-bottom: 1%; /* 10px */
 }
 
 .links {
-  padding-left: 63.75rem; /* 1020px */
+  padding-left: 123%; /* 1020px */
   display: flex;
   gap: 3.75rem; /* 60px */
   justify-content: center;
-  margin-top: 1.25rem; /* 20px */
-  margin-bottom: 0.9375rem; /* 15px */
+  margin-top: 2%; /* 20px */
+  margin-bottom: 2%; /* 15px */
 }
 
 .nav-links {
@@ -260,11 +260,12 @@ canvas {
 }
 
 .scroll {
-  margin-left: 36.875rem; /* 590px */
+  margin-top: -2%;
+  margin-left: 45%; /* 590px */
 }
 
 .intro-text {
-  margin-bottom: 0.9375rem; /* 15px */
+  margin-bottom: 1%; /* 15px */
   font-size: 1.25rem; /* 20px */
   text-align: justify;
   font-family: 'Space Mono', monospace;
