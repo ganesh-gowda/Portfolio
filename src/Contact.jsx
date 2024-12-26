@@ -51,7 +51,8 @@ const Contact = () => {
     </svg>
     <a href="https://www.linkedin.com/in/ganesh-gowda-m-969b12307/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
   </p>
-  <button><a href="https://app.cal.com/ganesh-gowda/30min" target="_blank">Book a Call</a></button>
+  <button><a href="https://cal.com/ganesh-gowda/
+30min" target="_blank">Book a Call</a></button>
 </div>
 
         </div>
