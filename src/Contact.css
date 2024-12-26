@@ -144,10 +144,10 @@ button {
   margin-left: 80px;
 }
 .two p:hover {
-  color: red; 
+  color: #298dff; 
   transition: color 0.3s ease; 
 }
 .two a:hover {
-  color: red; 
+  color:#298dff; 
   transition: color 0.3s ease; 
 }
