@@ -217,7 +217,7 @@ canvas {
 }
 
 .inner-card img {
-  width: 100%;
+  width: 50%;
   object-fit: cover;
 }
 
@@ -238,7 +238,7 @@ canvas {
   display: flex;
   gap: 3.75rem; /* 60px */
   justify-content: center;
-  margin-top: 2%; /* 20px */
+  margin-top: 5%; /* 20px */
   margin-bottom: 2%; /* 15px */
 }
 
