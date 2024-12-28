@@ -4,17 +4,18 @@ import CropTech from "./assets/CropTech.jpg"
 import CryptoX from "./assets/CryptoX.jpg"
 import MedPre from "./assets/MedPre.jpg"
 import Summeriz from "./assets/Summeriz.jpg"
-
+import { Link } from 'react-router-dom'; 
 
 const Development = () => {
   return (
     <div className="development-container">
-      <nav className="nav-links">
-        <a href="/">About</a>
-        <a href="#projects">Development</a>
-        <a href="/contact">Contact</a>
-      </nav>
-
+      <div className="nav-links">
+        <Link to="/" className='nav-link'>About</Link>
+        <Link to="/development" className="nav-link">
+          Development
+        </Link>
+        <Link to="/contact" className='nav-link'>Contact</Link>
+      </div>
       <header className="dev-header">
         <h1>most recent projects</h1>
       </header>

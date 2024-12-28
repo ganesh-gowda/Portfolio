@@ -219,3 +219,18 @@ body {
   width: 100%;
   object-fit: cover;
 }
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 17.5rem; /* 280px */
+  margin: 1.25rem 0; /* 20px */
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #e6e6e6;
+  padding: 0.625rem 1.25rem; /* 10px 20px */
+  border-radius: 0.625rem; /* 10px */
+  transition: all 0.3s ease;
+}
