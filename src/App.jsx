@@ -37,7 +37,7 @@ const App = () => {
               piece of art and tell a story through design.
             </p>
             <div className="links">
-              <a
+            <a
                 href="https://www.instagram.com/ganeshgowda.__/"
                 className="icons"
                 target="_blank"
