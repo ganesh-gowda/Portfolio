@@ -25,7 +25,7 @@ const App = () => {
             </div>
             <h2>hey,</h2>
             <h1 style={{ fontSize: '40px' }}>i'm Ganesh Gowda m</h1>
-            <h2 className="intro-title">mern Dev and Designer</h2>
+            <h2 className="intro-title">web dev and designer</h2>
             <p className="intro-text">
               I am a passionate Front-End developer with a knack for solving complex challenges and crafting creative
               solutions. I excel at quickly transforming designs into real-world Full Stack projects using cutting-edge
