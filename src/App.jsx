@@ -46,7 +46,7 @@ const App = () => {
                 <SlSocialInstagram size={36} />
               </a>
               <a
-                href="https://www.linkedin.com/in/ganesh-gowda-m-969b12307/"
+                href="https://www.linkedin.com/in/ganesh-gowda-m/"
                 className="icons"
                 target="_blank"
                 rel="noopener noreferrer"
