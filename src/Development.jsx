@@ -57,7 +57,7 @@ const Development = () => {
         </div>
        
       </section>
-      <div className='resume' style={{marginLeft:"610px"}}>
+      <div className='resume'>
       <a href='https://drive.google.com/file/d/1osL4-d1gyeAnynP4yLok3ei0UQ5Kf3cm/view?usp=drive_link'>View Resume</a>
       </div>
       <section className="tech-stack-section">

@@ -1,60 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Daisyogre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @font-face {
-  font-family: 'StarJedi'; /* Custom name for the font */
-  src: url('./assets/fonts/Starjedi.ttf') format('truetype'); /* Path to Star Jedi font */
+  font-family: 'StarJedi';
+  src: url('./assets/fonts/Starjedi.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'StarJediHollow'; /* Custom name for the font */
-  src: url('./assets/fonts/Starjhol.ttf') format('truetype'); /* Path to Star Jedi font */
+  font-family: 'StarJediHollow';
+  src: url('./assets/fonts/Starjhol.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 .about-section {
-  padding: 3% 1%; /* 80px 20px */
+  padding: 3% 1%;
   background-color: #121212;
   color: #e6e6e6;
   text-align: center;
 }
 
 .about-container {
-  max-width: 90%; /* 1200px */
+  max-width: 90%;
   margin: 0 auto;
 }
 
 .about-title {
-  font-size: 2.8125rem; /* 45px */
+  font-size: 2.8125rem;
   font-weight: bold;
-  margin-bottom:2%; /* 20px */
+  margin-bottom:2%;
   color: white;
 }
 
 .about-description {
-  font-size: 1.125rem; /* 18px */
+  font-size: 1.125rem;
   line-height: 1.8;
-  margin-bottom: 2%; /* 30px */
+  margin-bottom: 2%;
   color: #d7ec18;
   font-family: 'StarJedi';
 }
 
-
-@media (max-width: 80%) { /* 768px */
+@media (max-width: 80%) {
   .cards-container {
     align-items: center;
   }
 
   .card {
     width: 90%;
-    margin-bottom: 1.875rem; /* 30px */
+    margin-bottom: 2%;
   }
 }
 
 .nav-links {
   display: flex;
   justify-content: center;
-  gap: 21.875rem; /* 350px */
+  gap: 21.875rem;
 }
 
 .nav-links a {
@@ -63,7 +62,7 @@
   font-weight: bold;
   transition: color 0.5s;
   font-family: 'StarJedi';
-  font-size: 1.5625rem; /* 25px */
+  font-size: 1.5625rem;
 }
 
 .nav-links a:hover {
@@ -77,33 +76,33 @@
 }
 
 .hello {
-  font-size: 1rem; /* 16px */
-  width: 60%; /* 550px */
+  font-size: 1rem;
+  width: 60%;
   padding-bottom: 4%;
   font-family: 'Space Mono', monospace;
   text-align: justify;
   line-height: 1.2;
-  margin: 0% 2%; /* 50px */
-  margin-left: 35%; /* 350px */
-  margin-top: 2.5%; /* 25px */
+  margin: 0% 2%;
+  margin-left: 35%;
+  margin-top: 2.5%;
   font-weight: 600;
   display: inline-block;
 }
 
 .card {
-  border: 0.125rem solid pink; /* 2px */
-  border-radius: 1.25rem; /* 20px */
+  border: 0.125rem solid pink;
+  border-radius: 1.25rem;
   width: 70%;
-  margin-left: 15%; /* 220px */
+  margin-left: 15%;
 }
 
 .left {
-  margin-top: 2.5%; /* 42px */
-  margin-left: 3%; /* 50px */
+  margin-top: 2.5%;
+  margin-left: 3%;
   position: absolute;
-  width:  17%;/* 250px */
-  height: 43%; /* 250px */
-  border-radius: 1.25rem; /* 20px */
+  width:  17%;
+  height: 43%;
+  border-radius: 1.25rem;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -111,11 +110,11 @@
 }
 
 .left img {
-  margin-top: -25%; /* 5px */
+  margin-top: -25%;
   margin-bottom: 3%;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 1.25rem; /* 20px */
-  border: 0.125rem solid rgb(173, 173, 252); /* 2px */
+  border-radius: 1.25rem;
+  border: 0.125rem solid rgb(173, 173, 252);
 }
